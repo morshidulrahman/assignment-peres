@@ -1,0 +1,17 @@
+.header_img::before {
+  content: '';
+  position: absolute;
+  background-image: url(../assets/leaf.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  top: 20%;
+  background-color: #287279;
+  left: 0;
+  width: 74px;
+  height: 74px;
+  border-radius: 48px;
+  border: 8px solid #f8f3ea;
+  padding: 16px 16px 16px 18px;
+  transform: translateX(-50%);
+}
